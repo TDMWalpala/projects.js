@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color:#444;
+    background-color: #f5f5ff;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    min-height: 100vh;
+}
+h1{
+    margin-top: -300px;
+    color:purple;
+    font-size: 4rem;
+    opacity:0.4;
+    text-align: center;
+}
+form{
+    margin-top:1rem;
+    max-width: 100%;
+    width: 400px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.input{
+    font-size: 2rem;
+    width: 100%;
+    display: block;
+    padding: 1rem 2rem;
+    border: none;
+    
+}
+
+.input::placeholder{
+    color: #b5b5b5;
+}
+.todo-list{
+    background-color:#fff;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.todo-list li{
+    cursor: pointer;
+    border-top: 1px solid #f5f5f5;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+}
+.todo-list li.completed{
+    color:#e5e5e5;
+    text-decoration: line-through;
+}
+
+small{
+    margin-top: 3rem;
+    color:#b5b5b5;
+}
+footer {
+    background-color: rgb(190, 106, 190);
+    color: #f5f5f5;
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #f5f5f5;
+}
